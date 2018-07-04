@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>LATAM Airlines</title>
+
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" /> 
+<link href="css/animate.min.css" rel="stylesheet" type="text/css" media="all" /><!-- animation -->
+<link href="css/menu.css" rel="stylesheet" type="text/css" media="all" /> <!-- menu style -->  
+<!-- //Custom Theme files -->
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- js -->
+<script src="js/jquery-2.2.3.min.js"></script> 
+<!-- web-fonts -->
+
+</head>
+<body>
+	<!-- header -->
+
+		
+	<!-- sign up-page -->
+	<div class="login-page">
+		<div class="container"> 
+			<h3 class="w3ls-title w3ls-title1">Crear una cuenta</h3>  
+			<div class="login-body">
+				<form action="php/funciones/acciones.php" method="post">
+					<input type="text" class="user" name="Nombre" placeholder="Ingrese su usuario" required="">
+					<input type="text" class="user" name="Email" placeholder="Ingrese su email" required="">
+					<input type="password" name="Password" class="lock" placeholder="Ingrese su contraseña" required="">
+                    <input type="hidden" name="Accion" value="1">
+					<input type="submit" value="Registrarse">
+					<div class="forgot-grid">
+						<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Recordar credenciales</label>
+						<div class="forgot">
+							<a href="#">Olvidaste tu contraseña?</a>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</form>
+			</div>  
+			<h6>Tienes una cuenta? <a href="login.html">Ingresar ahora »</a> </h6>  
+		</div>
+	</div>
+	<!-- //sign up-page --> 
+	
+	<!-- //footer -->		
+	<div class="copy-right"> 
+		<div class="container">
+			<p>© Derechos reservados 2018</p>
+		</div>
+	</div> 
+	
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
